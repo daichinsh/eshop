@@ -12,6 +12,7 @@
 }
 .header a
 {
+    transition: all o.4s linear;
     color: #bcbdc7;
 }
 .topinfo
@@ -25,11 +26,16 @@
 }
 .accountlistlink{
     display: block; 
-    padding: 5px 15px;
-      
+    padding: 5px 15px;   
+  }
+  .accountlistlink:hover{
+    color: #fff;
   }
   .accountlistlink>i{
     padding-left: 4px;
+  }
+  .languages{
+    padding: 5px 0 0 10px;
   }
 .fa-icon{
     width:16px;
