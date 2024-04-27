@@ -20,6 +20,7 @@ ul{
 }
 a{
     text-decoration: none;
+    transition: all 0.1s linear;
 }
 h2{
     margin: o.65em;

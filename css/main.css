@@ -174,11 +174,13 @@
 
 .ts-detail{
   flex-grow: 2;
-  border: 1px solid red;
+  border: 1px solid #ddd;
  margin: 10px;
+ width: 40%;
 }
 .ts-list{
   flex-grow: 3;
+  width: 60%;
 }
 .ts-productlist{
   flex-wrap: wrap;
@@ -189,11 +191,15 @@
   
 }
 .ts-productitemdetail{
-  border: 1px solid red;
+  border: 1px solid #ddd;
   margin: 10px;
+  padding: 10px;
 }
 .productimage{
   width: 100%;
+}
+.priceitem{
+  color: #f4A137;
 }
 .producttitel{
   color: #000;
@@ -203,6 +209,67 @@
   color: #f4A137;
 }
 .productaction{
-  margin:10px;
+  margin:10px 0;
+}
+.productimageoverly{
+  position: relative;
+  overflow: hidden;
+}
+.overlyimage{
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.2s linear;
+}
+.ts-productitemdetail:hover .overlyimage{
+  top: 0;
+  opacity: 1;
+}
+.ts-productitemdetail:hover .btn_default{
+  top: 50%;
+  opacity: 1;
+}
+.ts-productitemdetail .btn_default{
+  position: absolute;
+  top: -100%;
+  right: 0;
+  width: 100%;
+  opacity: 0;
+  transition: all 0.2s linear; 
+}
+.product_mo-pech{
+  margin: 0  15px;
+}
+.product_mo-item img{
+  width: 4em;
+  margin: 0 3px;
+  border: 1px solid silver;
+}
+.product_mo-pech{
+  position: absolute;
+}
+.product_mo-item{
+  position: relative;
+  padding-left: 23px;
+  margin: 64px auto;
+}
+
+
+
+
+
+.banner{
+  padding: 10px;
+}
+
+.banner img{
+  width: 100%;
+  display: block;
+}
+
+.newproductitems{
+  width: 25%;
 }
 
