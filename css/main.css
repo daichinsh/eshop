@@ -221,8 +221,9 @@
   right: 0;
   width: 100%;
   opacity: 0;
-  transition: all 0.2s linear;
+  transition: all 0.1s linear;
 }
+
 .ts-productitemdetail:hover .overlyimage{
   top: 0;
   opacity: 1;
@@ -256,10 +257,6 @@
   margin: 64px auto;
 }
 
-
-
-
-
 .banner{
   padding: 10px;
 }
@@ -270,6 +267,38 @@
 }
 
 .newproductitems{
-  width: 25%;
+ width: 25%;
+}
+.newproductitems{
+width: 25%;
+}
+.collectionitem{
+  width: 16.5%;
+  flex-grow: 1;
+}
+.collectiondetailitem{
+  background-color: #eee;
+  border: 1px solid transparent;
+}
+.collectiondetailitem:hover{
+border-color: #f4A137;
+  background-color: #fff;
+}
+.collectiondetailitem{
+ margin: 5px;
+}
+.collecionlink{
+ display: block; 
+ border-bottom: 3px solid #f4A137;
+ position: relative;
+}
+.collectiontitle{
+  position: absolute;
+  top: 5px;
+  right: 0;
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
 }
 

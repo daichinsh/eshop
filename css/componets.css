@@ -20,9 +20,6 @@
 }
 
 
-
-
-
 /*rffecte*/
 .overly_image
 {
@@ -39,6 +36,6 @@
 }
 .overly_image:hover::before{
     transform: scaleX(1);
-    transition:all 0.2s linear;
+    transition: all 0.3s linear;
 }
 
