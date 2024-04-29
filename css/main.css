@@ -301,4 +301,35 @@ border-color: #f4A137;
   font-weight: bold;
   width: 100%;
 }
+.hotsaleitemcontainer{
+  flex-wrap: wrap;
+}
+.hotsoltitem{
+  width: 33%;
+  flex-grow: 1;
+}
+.hotsoledetail{
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+
+.hotsoleinfo{
+  flex-grow:1;
+}
+.hotsoleimag{
+  width: 115px;
+}
+.hotsoleimag img{
+  width: 100%;
+}
+.hotsoleinfo{
+  flex-wrap: wrap;
+}
+.hotsoledetail img:hover{
+  opacity:0.7;
+}
+.bannerpge{
+  height: 201px;
+}
 
