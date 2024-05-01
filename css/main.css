@@ -332,5 +332,41 @@ border-color: #f4A137;
 .bannerpge{
   height: 201px;
 }
+.hotcategoryitems{
+  width: 25%;
+}
+.hotcategorydetails{
+  margin: 10px;
+}
+.hotcategoryimage{
+  position: relative;
+}
+.hotcategoryimage:hover{
+  width:236px;
+  opacity: 0.7;
 
+}
+.hotcategoryimage a:hover{
+  background-color: #000;
+  color: #fff;
+}
+.hotgorylist{
+  padding-right: 34px;
+}
+.hotgorylist a:hover{
+  color: #f4A137;
+}
+.hotcategoryimage .btn{
+  position: absolute;
+  bottom: 25px;
+  right: 160px;
+}
+.hotcategorylistiteme{
+  list-style-type: circle ;
+  padding-right: 1px;
+  margin-right: 53px;
+}
+.hotcategorylistiteme a:hover{
+  color: #f4A137;
+}
 
