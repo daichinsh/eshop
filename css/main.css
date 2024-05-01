@@ -272,6 +272,10 @@
 .newproductitems{
 width: 25%;
 }
+.collections h4,
+.newproducts h4{
+  padding-right: 25px;
+}
 .collectionitem{
   width: 16.5%;
   flex-grow: 1;
@@ -419,12 +423,41 @@ border-color: #f4A137;
   border-radius: 0 20px 20px 0;
 }
 .newsletterinput .btnsearch{
-  padding: 6px 15px;
+  padding: 7px 15px;
 }
 .newsletter{
   padding: 10px;
+  align-items: center;
 }
-.newsletterinput h4{
+.newsletterinput h4,
+.sociallinks h4{
   color: #fff;
   padding-left: 20px;
 } 
+.sociallinks{
+  flex-grow: 1;
+  align-items: center;
+  justify-content: flex-end;
+}
+.sociallink{
+  padding: 11px;
+  border-radius: 50%;
+  background-color: silver;
+  display: block;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  margin: 0 2px;
+}
+.copyr{
+  padding: 10px;
+  color: #fff;
+}
+.copyr_text,
+.copyr_pyement{
+  align-items: center;
+  flex-grow: 1;
+}
+.copyr_pyement{
+  text-align: left;
+}
